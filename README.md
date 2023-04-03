@@ -16,6 +16,7 @@ The current setting of the data pipeline:
 7. Run producer.py to start Kafka Producer
 8. Run csv_consumer.py for writing to CSV file
 9. Run spark_consumer.py for writing to PostgreSQL Database
+
 **Reminder: Use the .env.example file to create your own .env file for your API key, Kafka topic name, server & ports and PostgreSQL Database configurations.**
 
 ### Pre-requisites
