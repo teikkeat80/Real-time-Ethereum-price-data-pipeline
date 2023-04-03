@@ -8,11 +8,11 @@ The current setting of the data pipeline:
 
 ## Running Instructions
 1. Open terminal and navigate to kafka installation directory (e.g. '/usr/local/kafka/3.4.0/')
-2. Start the ZooKeeper server by running the command 'bin/zookeeper-server-start.sh config/zookeeper.properties'. Keep the terminal open.
-3. Open another terminal and repeat step 1, then run the command 'bin/kafka-server-start.sh config/server.properties'. Keep this terminal open as well.
-4. Open another terminal and repeat step 1, run the command 'bin/kafka-topics.sh —create —bootstrap-server <kafka-server IP & port> —replication-factor 1 —partitions 1 —topic <topic-name>' (Replace the desired parameters in <topic-name> and <kafka-server IP & port>. For this particular project, the topic name will be 'eth-price', and kafka server is 'localhost:9092')
-5. Navigate to your PostgreSQL installation directory bin and start the postgreSQL server. Then use command lines like 'createdb', 'createuser', etc., to configure your postgreSQL properties. Visit https://www.postgresql.org/docs/ for detailed instructions.
-6. Install necessary python packages (kafka-python, pyspark, etc.) by running 'pip install <python-packages>'
+2. Start the ZooKeeper server by running the command `bin/zookeeper-server-start.sh config/zookeeper.properties`. Keep the terminal open.
+3. Open another terminal and repeat step 1, then run the command `bin/kafka-server-start.sh config/server.properties`. Keep this terminal open as well.
+4. Open another terminal and repeat step 1, run the command `bin/kafka-topics.sh —create —bootstrap-server <kafka-server IP & port> —replication-factor 1 —partitions 1 —topic <topic-name>` (Replace the desired parameters in `<topic-name>` and `<kafka-server IP & port>`. For this particular project, the topic name will be 'eth-price', and kafka server is 'localhost:9092')
+5. Navigate to your PostgreSQL installation directory bin and start the postgreSQL server. Then use command lines like `createdb`, `createuser`, etc., to configure your postgreSQL properties. Visit https://www.postgresql.org/docs/ for detailed instructions.
+6. Install necessary python packages (kafka-python, pyspark, etc.) by running `pip install <python-packages>`
 7. Run producer.py to start Kafka Producer
 8. Run csv_consumer.py for writing to CSV file
 9. Run spark_consumer.py for writing to PostgreSQL Database
