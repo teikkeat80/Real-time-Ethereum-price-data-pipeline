@@ -20,7 +20,7 @@ The graphical representation of the data pipeline is as below:
 6. Install necessary python packages (kafka-python, pyspark, etc.) by running `pip install <python-packages>`
 7. Run producer.py to start Kafka Producer
 8. Run csv_consumer.py for writing to CSV file
-9. Run spark_consumer.py for writing to PostgreSQL Database
+9. Run spark_consumer.py for writing to PostgreSQL Database using jdbc sink method
 
 ![Screenshot 2023-04-03 at 18 46 55](https://user-images.githubusercontent.com/83192718/229587464-e7c34ac7-ae33-4c7f-9672-50d1363269b6.png)
 
