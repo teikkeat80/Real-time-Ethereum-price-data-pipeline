@@ -22,11 +22,11 @@ The graphical representation of the data pipeline is as below:
 8. Run csv_consumer.py for writing to CSV file
 9. Run spark_consumer.py for writing to PostgreSQL Database
 
-![Screenshot 2023-04-03 at 18 46 28](https://user-images.githubusercontent.com/83192718/229587435-78938b35-c02a-4ce6-aad1-816375c5b41f.png)
-
 ![Screenshot 2023-04-03 at 18 46 55](https://user-images.githubusercontent.com/83192718/229587464-e7c34ac7-ae33-4c7f-9672-50d1363269b6.png)
 
 ![Screenshot 2023-04-03 at 18 48 06](https://user-images.githubusercontent.com/83192718/229587558-690a5ab3-51ad-4d0e-9317-511b50c05289.png)
+
+![Screenshot 2023-04-03 at 18 46 28](https://user-images.githubusercontent.com/83192718/229587435-78938b35-c02a-4ce6-aad1-816375c5b41f.png)
 
 **Reminder: Use the .env.example file to create your own .env file for your API key, Kafka topic name, server & ports and PostgreSQL Database configurations.**
 
